@@ -1,0 +1,14 @@
+{
+    "MY_DOMAIN": "google.com",
+    "LOG_LEVEL": "INFO",
+    "PRINT_LOGS" : true,
+    "LOG_FILE": "typosquatting.log",
+    "SUSPICIOUS_DOMAINS_FILE": "suspicious_domains.log",
+    "CERTSTREAM_URL": "ws://localhost:8080",
+    "MIN_RATIO": 0.5,
+    "ABUSEIPDB_BASE_URL": "https://api.abuseipdb.com/api/v2",
+    "ABUSEIPDB_API_KEY": "",
+    "UNTRUSTED_ISSUERS": ["Let's Encrypt"],
+    "HTTP_HEADERS": {},
+    "VERIFY_SSL": true
+}
